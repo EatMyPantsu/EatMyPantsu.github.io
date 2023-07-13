@@ -6616,6 +6616,10 @@ img[src="/assets/cef02719c12d8aaf38894c16dca7fbe6.svg"] {	/* rolesettings			addr
 	box-shadow: 0 2px 5px 0 rgba(var(--transparencycolor), .2);
 }
 
+.messageListItem-ZZ7v6g {
+	  border-radius: 10px;
+}
+
 /* ----		15.5.	TAGS							---- */
 
 .botTagRegular-kpctgU:not([style]) {						/* bottag				regular								*/
