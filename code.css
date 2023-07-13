@@ -2,7 +2,7 @@
 @import url(https://mwittrien.github.io/BetterDiscordAddons/Themes/BlurpleRecolor/BlurpleRecolor.css);
 
 :root {
-	--backgroundfloating: 			24,25,28;
+	--backgroundfloating: 			var(--backgroundfloating)
 	--transparencycolor:			0,0,0;
 	--transparencyalpha:			0.15;
 	--messagetransparency:			0.5;
