@@ -1232,6 +1232,9 @@ body::after {
 	background-color: rgba(var(--transparencycolor), .3);
 }
 
+.messageListItem-ZZ7v6g {
+	  border-radius: 10px;
+}
 .cozy-VmLDNB .container-3FojY8 .header-2jRmjb::after {
 	left: 40px;
 }
