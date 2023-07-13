@@ -2,6 +2,7 @@
 @import url(https://mwittrien.github.io/BetterDiscordAddons/Themes/BlurpleRecolor/BlurpleRecolor.css);
 
 :root {
+	--backgroundfloating: 			24,25,28;
 	--transparencycolor:			0,0,0;
 	--transparencyalpha:			0.15;
 	--messagetransparency:			0.5;
@@ -248,6 +249,96 @@ body,														/* body														*/
 	background: transparent;
 }
 
+
+.theme-light:not(.userProfileOuterThemed-2BgJCM),
+.theme-dark:not(.userProfileOuterThemed-2BgJCM),
+.theme-amoled:not(.userProfileOuterThemed-2BgJCM) {
+
+	--background-floating: rgb(var(--backgroundfloating));
+
+	
+	--background-message-hover: rgba(var(--backgroundfloating),.15);
+
+	
+	--guild-header-text-shadow: 0 1px 1px rgba(var(--backgroundfloating),.5);
+
+	
+	--search-popout-option-fade: linear-gradient(90deg,transparent,var(--background-floating) 80%);
+
+}
+
+
+
+#app-mount .tooltip-16UpTB,
+#app-mount .tooltip-1_vJJI {
+	background-color: var(--background-floating);
+	color: var(--text-normal);
+}
+#app-mount .tooltipPointer-1KkjI2,
+#app-mount .tooltipPointer-1awMxk {
+	border-right-color: var(--background-floating);
+}
+
+#app-mount .bubble-3XikHF {
+	background-color: var(--background-floating);
+	color: var(--text-normal);
+}
+#app-mount .bubble-3XikHF::before {
+	border: 5px solid transparent;
+	border-top-color: var(--background-floating);
+}
+
+
+#app-mount .scrollSeparator-37GFe9 {
+	box-shadow: 0 1px 0 0 rgba(var(--backgroundfloating),.3), 0 1px 2px 0 rgba(var(--backgroundfloating),.3);
+}
+
+
+#app-mount .container-20TyK0[style*="background-color: rgba(248, 249, 249"],
+#app-mount .container-20TyK0[style*="background-color: rgba(32, 34, 37"] {
+	background-color: rgba(var(--backgroundfloating), .9) !important;
+}
+
+
+#app-mount .separator-3TK_-B {
+	box-shadow: 0 1px 0 0 rgba(var(--backgroundfloating),.3), 0 1px 2px 0 rgba(var(--backgroundfloating),.3);
+}
+
+
+}
+#app-mount .header-JHwfVI {
+	box-shadow: 0 1px 0 0 rgba(var(--backgroundfloating),.3), 0 1px 2px 0 rgba(var(--backgroundfloating),.3);
+}
+
+
+#app-mount .calendarPicker-sDhzdi .react-datepicker__header {
+	background-color: var(--background-floating);
+	border-color: rgba(var(--backgroundfloating),.2);
+}
+
+#app-mount .calendarPicker-sDhzdi .react-datepicker__current-month {
+	border-bottom-color: rgba(var(--backgroundfloating),.3);
+	color: var(--header-primary);
+}
+#app-mount .calendarPicker-sDhzdi .react-datepicker__navigation.react-datepicker__navigation--next,
+#app-mount .calendarPicker-sDhzdi .react-datepicker__navigation.react-datepicker__navigation--previous {
+	-webkit-mask: url(https://discord.com/assets/7619529e87dad31fd2ae83d9b9583e49.svg) 50%/6px 12px no-repeat;
+	background: var(--interactive-normal);
+	border-color: var(--background-floating);
+}
+
+#app-mount .calendarPicker-sDhzdi .react-datepicker__week:last-of-type .react-datepicker__day {
+	border-bottom-color: var(--background-floating);
+}
+#app-mount .calendarPicker-sDhzdi .react-datepicker__week .react-datepicker__day:last-of-type {
+	border-right-color: var(--background-floating);
+}
+
+#app-mount .calendarPicker-sDhzdi .react-datepicker__day {
+	border-top-color: var(--background-floating);
+	border-left-color: var(--background-floating);
+	color: var(--header-primary);
+}
 #app-mount .scroller-hE2gWq {								/* peoples				activity scroller					*/
 	border: none;
 }
