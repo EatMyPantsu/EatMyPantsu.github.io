@@ -2,7 +2,6 @@
 @import url(https://mwittrien.github.io/BetterDiscordAddons/Themes/BlurpleRecolor/BlurpleRecolor.css);
 
 :root {
-	--backgroundfloating: 			24,25,28;
 	--transparencycolor:			0,0,0;
 	--transparencyalpha:			0.15;
 	--messagetransparency:			0.5;
@@ -311,34 +310,7 @@ body,														/* body														*/
 }
 
 
-#app-mount .calendarPicker-sDhzdi .react-datepicker__header {
-	background-color: var(--background-floating);
-	border-color: rgba(var(--backgroundfloating),.2);
-}
 
-#app-mount .calendarPicker-sDhzdi .react-datepicker__current-month {
-	border-bottom-color: rgba(var(--backgroundfloating),.3);
-	color: var(--header-primary);
-}
-#app-mount .calendarPicker-sDhzdi .react-datepicker__navigation.react-datepicker__navigation--next,
-#app-mount .calendarPicker-sDhzdi .react-datepicker__navigation.react-datepicker__navigation--previous {
-	-webkit-mask: url(https://discord.com/assets/7619529e87dad31fd2ae83d9b9583e49.svg) 50%/6px 12px no-repeat;
-	background: var(--interactive-normal);
-	border-color: var(--background-floating);
-}
-
-#app-mount .calendarPicker-sDhzdi .react-datepicker__week:last-of-type .react-datepicker__day {
-	border-bottom-color: var(--background-floating);
-}
-#app-mount .calendarPicker-sDhzdi .react-datepicker__week .react-datepicker__day:last-of-type {
-	border-right-color: var(--background-floating);
-}
-
-#app-mount .calendarPicker-sDhzdi .react-datepicker__day {
-	border-top-color: var(--background-floating);
-	border-left-color: var(--background-floating);
-	color: var(--header-primary);
-}
 #app-mount .scroller-hE2gWq {								/* peoples				activity scroller					*/
 	border: none;
 }
