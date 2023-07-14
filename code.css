@@ -249,44 +249,6 @@ body,														/* body														*/
 }
 
 
-.theme-light:not(.userProfileOuterThemed-2BgJCM),
-.theme-dark:not(.userProfileOuterThemed-2BgJCM),
-.theme-amoled:not(.userProfileOuterThemed-2BgJCM) {
-
-	--background-floating: rgb(var(--backgroundfloating));
-
-	
-	--background-message-hover: rgba(var(--backgroundfloating),.15);
-
-	
-	--guild-header-text-shadow: 0 1px 1px rgba(var(--backgroundfloating),.5);
-
-	
-	--search-popout-option-fade: linear-gradient(90deg,transparent,var(--background-floating) 80%);
-
-}
-
-
-
-#app-mount .tooltip-16UpTB,
-#app-mount .tooltip-1_vJJI {
-	background-color: var(--background-floating);
-	color: var(--text-normal);
-}
-#app-mount .tooltipPointer-1KkjI2,
-#app-mount .tooltipPointer-1awMxk {
-	border-right-color: var(--background-floating);
-}
-
-#app-mount .bubble-3XikHF {
-	background-color: var(--background-floating);
-	color: var(--text-normal);
-}
-#app-mount .bubble-3XikHF::before {
-	border: 5px solid transparent;
-	border-top-color: var(--background-floating);
-}
-
 
 #app-mount .scrollSeparator-37GFe9 {
 	box-shadow: 0 1px 0 0 rgba(var(--backgroundfloating),.3), 0 1px 2px 0 rgba(var(--backgroundfloating),.3);
